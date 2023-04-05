@@ -9,9 +9,9 @@ new_count = 0
 
 if x[i:i+3] == '3*3':
     count += 1
-    i = i + 1 # -- j'incrémente ma variable i pour parcourir la liste 
+    i = i + 2 # -- j'incrémente ma variable i pour parcourir la liste 
     # (sans oublier i + 1 pour trigger les fanas algorithmicien)--
-print("Oui, il y a bien {} fois une itération de {}".format(count, x[0:3]))
+    print("Oui, il y a bien {} fois une itération de {}".format(count, x[0:3]))
 
 if not x[i:i+3] == '3*3':
     count += 1
