@@ -6,7 +6,7 @@ x = '3*3'*3**2
 i = 0
 count = 0
 
-for iteration in range(len(x)//3-1):
+for iteration in range(len(x)//3):
     if x[i:i+3] == '3*3':
         count += 1
         i = i + 3 # -- j'incrémente ma variable i pour parcourir la liste 
