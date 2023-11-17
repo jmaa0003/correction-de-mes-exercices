@@ -1,0 +1,12 @@
+"""
+MABHOUMA JOSHUA
+17/11/2023
+prend deux arguments entiers qui represente la coordonnee en abscisse et celle en ordonne\
+et renvoie le chiffre au coordonnées correspondantes dans le triangle de pascal
+"""
+
+def triangle_de_pascal(i,j):
+    return 1 if i == j or i == 0 else triangle_de_pascal(i, j-1) +\
+           triangle_de_pascal(i-1, j-1)
+
+print(triangle_de_pascal(3,5))
